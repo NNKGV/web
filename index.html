@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Quiz Test</h1>
+
+    <div id="quiz-box">
+        <h2 id="question">Câu hỏi ở đây</h2>
+        <div id="answers"></div>
+        <button onclick="nextQuestion()">Tiếp theo</button>
+    </div>
+
+    <div id="result-box" class="hidden">
+        <h2>Kết quả</h2>
+        <p id="score"></p>
+        <button onclick="restartQuiz()">Làm lại</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
